@@ -1,0 +1,17 @@
+.chart {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 14px;
+}
+
+.chartTitle {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+@media only screen and (max-width: 767px) {
+  .chart {
+    margin: 5px 10px 5px 10px;
+  }
+}

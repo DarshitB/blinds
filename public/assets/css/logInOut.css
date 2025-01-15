@@ -1,0 +1,216 @@
+.login-wrapper-main {
+  overflow: hidden;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.logo-container {
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/logobgw.png");
+  background-position: center center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  filter: blur(10px);
+  position: fixed;
+  opacity: 0.5;
+}
+.login-wrapper {
+  height: 100vh;
+}
+.login-wrapper .navbar-logo {
+  mix-blend-mode: multiply;
+}
+.login-form-wrapper {
+  padding: 0px 50px;
+  position: relative;
+}
+.email-box .searchbox {
+  width: 100%;
+  padding: 0.5rem 0.5rem 0.5rem 50px;
+  border-radius: 8px;
+  border-color: rgb(220, 220, 220);
+  margin: 0.5rem 0;
+}
+.pass-box .searchbox {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem 50px 0.5rem 50px;
+  border-radius: 8px;
+  border-color: rgb(220, 220, 220);
+}
+.email-box {
+  position: relative;
+  margin-top: 2rem;
+}
+.pass-box {
+  position: relative;
+}
+.email-box:before {
+  position: absolute;
+  top: 50%;
+  left: 0.8rem;
+  transform: translateY(-50%);
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("../img/mail-box-i.svg") no-repeat 50% 50%;
+  background-size: 24px;
+  margin: 0 4px 0 0;
+}
+.pass-box:before {
+  position: absolute;
+  top: 50%;
+  left: 0.8rem;
+  transform: translateY(-50%);
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("../img/lock-i.svg") no-repeat 50% 50%;
+  background-size: 24px;
+  margin: 0 4px 0 0;
+}
+.login-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #043642;
+  background-color: #043642;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  border-radius: 15px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  padding: 12px;
+  transition: all 0.5s ease;
+}
+.login-btn:hover {
+  background-color: rgba(4, 55, 67, 0.8);
+}
+.login-form-container {
+  padding: 3rem;
+  background-color: rgba(250, 250, 250, 0.5);
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 14px;
+}
+.login-form-container h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #043642;
+}
+.passwordshowbtn {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 8px;
+}
+.backgrounddivbox {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: -28%;
+  right: -12%;
+  opacity: 0.035;
+}
+.backgrounddivbox img {
+  width: 100%;
+  height: auto;
+}
+.register-name-insert {
+  display: flex;
+}
+
+.Register-wrapper .email-box {
+  margin: 0%;
+}
+.Register-wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+.Register-wrapper .navbar-logo {
+  mix-blend-mode: multiply;
+}
+.pr-1 {
+  padding-right: 0.25rem !important;
+}
+.pl-1 {
+  padding-left: 0.25rem !important;
+}
+.fname-box {
+  position: relative;
+  width: 50%;
+}
+.fname-box:before {
+  position: absolute;
+  top: 50%;
+  left: 0.8rem;
+  transform: translateY(-50%);
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("../img/user-i.svg") no-repeat 50% 50%;
+  background-size: 24px;
+  margin: 0 4px 0 0;
+}
+.fname-box .searchbox {
+  width: 100%;
+  padding: 0.5rem 0.5rem 0.5rem 50px;
+  border-radius: 8px;
+  border-color: rgb(220, 220, 220);
+  margin: 0.5rem 0;
+}
+.main-password-wrapper {
+  position: relative;
+  z-index: 1;
+}
+.progress-bg {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: -1;
+  border-radius: 8px;
+}
+.progress {
+  transition: 0.25s all ease;
+}
+.main-password-wrapper .pass-box .searchbox {
+  margin-bottom: 0.3rem;
+}
+@media only screen and (max-width: 767px) {
+  .login-form-wrapper {
+    padding: 0px 10px;
+  }
+  .login-form-container {
+    padding: 1rem;
+  }
+  .login-form-container h1 {
+    font-size: 2.2rem;
+  }
+  .login-boxbottomlinks {
+    display: flex;
+  }
+  .login-boxbottomlinks span:first-child {
+    display: block;
+    width: 60%;
+  }
+  .login-boxbottomlinks span:last-child {
+    display: block;
+    width: 40%;
+    text-align: right;
+    float: unset;
+  }
+}

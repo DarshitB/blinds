@@ -1,0 +1,191 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Toastify__toast--error {
+  border: 1px solid #eb5757;
+  border-radius: 14px !important;
+  background: #fae1e2 !important;
+}
+.Toastify__toast--error::after {
+  content: "";
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  left: 265px;
+  padding-top: 14px !important;
+}
+.Toastify__toast--error::before {
+  content: "";
+  position: relative;
+  z-index: 100000;
+  left: 12px;
+  top: 6px;
+}
+.Toastify__toast--info {
+  border: 1px solid #3498db;
+  border-radius: 14px !important;
+  background: #edf8ff !important;
+}
+.Toastify__toast--info::after {
+  content: "";
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  left: 265px;
+  padding-top: 14px !important;
+}
+.Toastify__toast--info::before {
+  content: "";
+  position: relative;
+  z-index: 100000;
+  left: 12px;
+  top: 6px;
+}
+.Toastify__toast--success {
+  border: 1px solid #3a9ea5 !important;
+  border-radius: 14px !important;
+  background: #f0f9fa !important;
+}
+.Toastify__toast--success::before {
+  content: "";
+  position: relative;
+  z-index: 100000;
+  left: 12px;
+  top: 6px;
+}
+.Toastify__toast--success::after {
+  content: "";
+  position: absolute;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  left: 265px;
+  padding-top: 14px !important;
+}
+.Toastify__toast--warning {
+  border: 1px solid #e78326 !important;
+  border-radius: 14px !important;
+  background: #fadfc5 !important;
+}
+.Toastify__toast--warning::before {
+  content: "";
+  position: relative;
+  z-index: 100000;
+  left: 12px;
+  top: 6px;
+}
+.Toastify__toast--warning::after {
+  content: "";
+  position: absolute;
+  color: #e78326;
+  font-size: 14px;
+  font-weight: 700;
+  left: 265px;
+  padding-top: 14px !important;
+}
+.Toastify__toast-body {
+  color: #444c63;
+  font-size: 14px;
+  padding-left: 20px;
+  line-height: 20px;
+  padding: 0px;
+  padding-top: 25px;
+  width: 100%;
+  font-weight: 400;
+  margin-left: 10px !important;
+}
+.Toastify__toast-body .Toastify__toast-icon {
+  width: 25px;
+  margin-inline-end: 20px;
+}
+.Toastify__toast > button > svg {
+  display: none;
+}
+
+.container-fluide {
+  display: flex;
+}
+.loadding-for-api-admin {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type="number"] {
+  resize: none;
+  /* Hide the up and down buttons in Firefox */
+  -moz-appearance: textfield;
+}
+
+/* Hide the up and down buttons in Webkit-based browsers */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  opacity: 0;
+  position: absolute;
+}
+
+/* Hide the up and down buttons in Gecko-based browsers */
+input[type="number"]::-moz-inner-spin-button,
+input[type="number"]::-moz-outer-spin-button {
+  -moz-appearance: none;
+  opacity: 0;
+  position: absolute;
+}
+.paypal-buttons-layout-vertical {
+  z-index: 1 !important;
+  /*   border-radius: 14px !important;
+ */
+  overflow: hidden !important;
+}
+#zoid-paypal-card-form-uid_493dd2fd33_mta6mzk6mtm .css-aezqgw-button-Button {
+  border-radius: 14px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .loadding-for-api-admin {
+    width: 100%;
+    height: 100vh;
+  }
+  .Toastify__toast-container--top-right {
+    top: 1em !important;
+    right: 1em !important;
+    width: var(--toastify-toast-width) !important;
+    left: unset !important;
+  }
+}

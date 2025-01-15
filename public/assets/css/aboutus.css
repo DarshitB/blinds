@@ -1,0 +1,138 @@
+.aboutus-page-wrapper .section-pagetop {
+  padding: 20px 50px 0%;
+}
+.bliend-information-page-wrapper .section-pagetop {
+  padding: 20px 50px 0%;
+}
+.aboutus-page-wrapper .section-pagetop .mainhedof-productlist {
+  background-color: rgb(250, 250, 250);
+  color: #043642;
+  border: 1px solid rgb(225, 225, 225);
+}
+.bliend-information-page-wrapper .section-pagetop .mainhedof-productlist {
+  background-color: rgb(250, 250, 250);
+  color: #043642;
+  border: 1px solid rgb(225, 225, 225);
+}
+.abouus-main-text {
+  padding: 20px 50px 0%;
+}
+.abouus-main-text-inside {
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 14px;
+  padding: 2.5rem 3rem;
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+}
+.abouus-main-text-inside h4 {
+  font-weight: 700;
+  color: #043642;
+  font-size: 35px;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+}
+
+.abouus-main-text-inside-detailes {
+  padding-right: 3rem;
+}
+
+.abouus-main-text-inside-detailes p {
+  font-size: 18px;
+}
+.abouus-main-text-inside-detailes .login-btn {
+  width: 200px;
+}
+.abouus-main-text-inside-image {
+  border-radius: 14px;
+  overflow: hidden;
+}
+.abouus-main-text-inside-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+.abouus-howitworks-text-inside {
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 14px;
+  padding: 2.5rem 3rem;
+}
+.abouus-howitworks-text-inside h4 {
+  font-weight: 700;
+  color: #043642;
+  font-size: 35px;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+}
+.abouus-howitworks-text-inside .abouus-main-text-inside-detailes {
+  padding-right: unset;
+  padding-left: 0;
+}
+.stages-howItWorks {
+  margin-bottom: 1rem;
+}
+.blur-up-image {
+  filter: blur(20px);
+  transition: filter 0.3s ease-out;
+}
+.blur-up-image.loaded {
+  filter: blur(0);
+}
+@media only screen and (max-width: 991px) {
+  .abouus-main-text-inside-detailes {
+    padding-right: 1rem;
+  }
+  .abouus-main-text-inside {
+    grid-template-columns: 4fr 3fr;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .bliend-information-page-wrapper .section-pagetop {
+    padding: 20px 10px 0%;
+  }
+  .abouus-main-text {
+    padding: 20px 10px 0%;
+  }
+  .abouus-main-text-inside {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .abouus-main-text-inside-detailes {
+    order: 2;
+    padding: 0%;
+  }
+  .abouus-main-text-inside-image {
+    order: 1;
+  }
+  .aboutus-page-wrapper .section-pagetop {
+    padding: 20px 10px 0%;
+  }
+  .abouus-howitworks-text-inside {
+    padding: 1rem;
+  }
+  .contactus-page-wrapper .section-pagetop {
+    padding: 20px 10px 0%;
+  }
+  .contact-form-main-box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px 0%;
+  }
+  .contact-form-side,
+  .contact-detailes-side {
+    padding: 1rem;
+  }
+  .contact-detailes-side {
+    margin-bottom: 20px;
+  }
+  .contact-form-side .register-name-insert {
+    flex-direction: column;
+  }
+  .contact-form-side .register-name-insert .fname-box,
+  .contact-form-side .register-name-insert .phone-box,
+  .contact-form-side .register-name-insert .email-box {
+    width: 100%;
+    padding: 0%;
+  }
+}

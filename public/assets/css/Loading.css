@@ -1,0 +1,172 @@
+.skboxofcard {
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 0.375rem;
+  padding: 15px;
+  position: relative;
+  margin-bottom: calc(1.5rem * 0.5);
+  animation: skeleton 1s ease infinite alternate;
+}
+.skImgwrap {
+  display: block;
+  width: 100%;
+}
+.skimage {
+  width: 100%;
+  height: 240px;
+  background-color: #eee;
+  margin-bottom: 0.5rem;
+}
+@media only screen and (max-width: 767px) {
+  .skimage {
+    height: 150px;
+  }
+}
+.skheading {
+  background-color: #eee;
+  width: 100%;
+  height: 50px;
+}
+.skInfoWrao {
+  display: block;
+  width: 100%;
+}
+.skPrice {
+  background-color: #eee;
+  width: 30%;
+  height: 20px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.sksamplebtn {
+  background-color: #eee;
+  height: 32px;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.SkNavigaionProduct {
+  background-color: #eee;
+  height: 24px;
+  width: 100%;
+  animation: skeleton 1s ease infinite alternate;
+}
+.SkProductimages {
+  width: 100%;
+  height: 800px;
+  background-color: #eee;
+  animation: skeleton 1s ease infinite alternate;
+}
+.add-tocart-btn .SkProductimages {
+  height: 40px;
+}
+.SkProductPrice {
+  width: 30%;
+  height: 45px;
+  margin-left: auto;
+  background-color: #eee;
+  animation: skeleton 1s ease infinite alternate;
+}
+.SkFabricload {
+  width: 100%;
+  height: 70px;
+  margin-left: auto;
+  background-color: #eee;
+  animation: skeleton 1s ease infinite alternate;
+}
+.SkAddressload {
+  width: 100%;
+  height: 150px;
+  margin-left: auto;
+  background-color: #eee;
+  animation: skeleton 1s ease infinite alternate;
+}
+.proDisHeading {
+  height: 108px;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  background-color: #eee;
+  animation: skeleton 1s ease infinite alternate;
+}
+.proDisMesurment {
+  display: block;
+  width: 100%;
+  animation: skeleton 1s ease infinite alternate;
+}
+.ProDismainMessurment {
+  height: 190px;
+  width: 100%;
+  background-color: #eee;
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 8px;
+}
+.ProDisDelivaryNPrice {
+  width: 100%;
+  height: 69px;
+  background-color: #eee;
+  margin-top: 1rem;
+}
+.ProdisQunttyNAddcart {
+  height: 38px;
+  width: 100%;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.proDisQuntty {
+  background-color: #eee;
+  width: 35%;
+  height: 100%;
+}
+.proDisAddcartBtn {
+  width: 50%;
+  height: 100%;
+  background-color: #eee;
+}
+@keyframes skeleton {
+  to {
+    opacity: 0.5;
+  }
+}
+.ordProduID {
+  height: 39px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #eee;
+  animation: skeleton 1s ease infinite alternate;
+}
+.ordProduStatusOdateEdate {
+  display: flex;
+}
+.ordProduStatus {
+  height: 24px;
+  width: 20%;
+  background-color: #eee;
+  animation: skeleton 1s ease infinite alternate;
+}
+.ordProduOdate {
+  height: 24px;
+  width: 20%;
+  margin: 0 1rem;
+  background-color: #eee;
+  animation: skeleton 1s ease infinite alternate;
+}
+.ordProduEdate {
+  height: 24px;
+  width: 30%;
+  margin: 0 1rem;
+  background-color: #eee;
+  animation: skeleton 1s ease infinite alternate;
+}
+.ordProducontainer {
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 14px;
+  margin-top: 1rem;
+  padding: 1.5rem;
+}
+.orderdproduct {
+  height: 100px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #eee;
+  animation: skeleton 1s ease infinite alternate;
+}

@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  /*  font-family: "Barlow", sans-serif; */
+  font-family: "Open Sans", sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: "Open Sans", sans-serif;
+}

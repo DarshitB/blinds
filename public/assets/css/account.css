@@ -1,0 +1,207 @@
+.account-Setting-list {
+  border-radius: 14px;
+  border: 1px solid rgb(220, 220, 220);
+  padding: 1rem 1.5rem 0.5rem 1.5rem;
+  margin-bottom: 20px;
+}
+.account-Setting-container .section-pagetop {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.account-Setting-container .mainhedof-productlist {
+  background-color: rgb(250, 250, 250);
+  color: #043642;
+  border: 1px solid rgb(225, 225, 225);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.account-Setting-list-li {
+  background-color: rgb(250, 250, 250);
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid rgb(225, 225, 225);
+  cursor: pointer;
+  transition: 0.25s ease all;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.account-Setting-list-li:hover {
+  background-color: rgb(255, 255, 255);
+}
+.Setting-list-image {
+  width: 80px;
+}
+.account-Setting-list-li h4 {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+.account-Setting-list-li p {
+  padding: 0 1rem;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 0.5rem;
+}
+.profile-image-selectore {
+  padding: 0 0 0.5rem 0;
+}
+.profile-image-selectore .upload-produc-img-label {
+  padding: 0;
+}
+.bakbutton {
+  position: relative;
+  min-width: 150px;
+  border: 1px solid rgb(225, 225, 225) !important;
+  padding: 5px 12px 7px;
+  font-weight: 600;
+}
+.bakbutton::before {
+  content: "\21D0";
+  padding-right: 0.2rem;
+  font-size: 20px;
+  font-weight: 700;
+  transform: translateY(-48%);
+}
+.form-detailes-profile {
+  display: flex;
+}
+.profile-image-selectore {
+  width: 150px;
+}
+.updationdatauser-name {
+  width: calc(100% - 150px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.updationdatauser-name .fname-box {
+  width: 100%;
+}
+.updationdatauser-name .email-box {
+  margin: 0%;
+}
+.notisaccoutsettingpage {
+  padding: 1rem 1.5rem;
+}
+.buttonssets {
+  padding-top: 0.5rem;
+}
+.buttonssets-inner button {
+  padding: 10px 15px;
+  width: 100%;
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 14px;
+  background-color: #043642;
+  color: #fff;
+  transition: 0.25s ease all;
+}
+.buttonssets-inner button:hover {
+  background-color: rgba(4, 55, 67, 0.8);
+}
+.changepassword .updationdatauser-name {
+  width: 100%;
+}
+.added-addreses-wrapper {
+  padding-bottom: 1.5rem;
+}
+.added-address-singuler {
+  background-color: rgb(250, 250, 250);
+  color: #043642;
+  border: 1px solid rgb(225, 225, 225);
+  padding: 10px 20px;
+  border-radius: 14px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.added-address-singuler p {
+  margin: 0%;
+}
+.updateAdress {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+
+.updateAdress button {
+  text-align: center;
+  margin: 0%;
+  width: 49%;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #043642;
+  color: #fff;
+  transition: 0.25s ease all;
+}
+.updateAdress button:hover {
+  background-color: rgba(4, 55, 67, 0.8);
+}
+.addAddressHeadding {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+}
+.addAddressHeadding h4 {
+  margin: 0%;
+}
+.addAddress-btn-from-update {
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #043642;
+  color: #fff;
+  transition: 0.25s ease all;
+  margin-left: 1rem;
+  padding: 0 1rem;
+}
+.addAddress-btn-from-update:hover {
+  background-color: rgba(4, 55, 67, 0.8);
+}
+.loadding-for-api {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+@media only screen and (max-width: 767px) {
+  .account-Setting-container {
+    margin-top: 150px;
+  }
+  .account-Setting-container .section-pagetop {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .mainhedof-productlist {
+    flex-direction: column;
+  }
+  .big-btn.bakbutton {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  .form-detailes-profile {
+    flex-direction: column;
+  }
+  .updationdatauser-name,
+  .profile-image-selectore {
+    width: 100%;
+  }
+  .address-wrapper .register-name-insert {
+    flex-direction: column;
+  }
+  .address-wrapper .register-name-insert .fname-box,
+  .address-wrapper .register-name-insert .phone-box,
+  .address-wrapper .register-name-insert .addaddress-box {
+    width: 100%;
+    padding: 0% !important;
+  }
+}

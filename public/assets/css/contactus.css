@@ -1,0 +1,174 @@
+.contactus-page-wrapper .section-pagetop .mainhedof-productlist {
+  background-color: rgb(250, 250, 250);
+  color: #043642;
+  border: 1px solid rgb(225, 225, 225);
+}
+.contactus-page-wrapper
+  .section-pagetop
+  .mainhedof-productlist
+  .home-redirector {
+  color: #043642;
+  font-weight: 500;
+}
+.contactus-page-wrapper .section-pagetop {
+  padding: 20px 50px 0%;
+}
+.contact-form-main-box {
+  padding: 20px 50px 0%;
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  column-gap: 20px;
+}
+.contact-detailes-side {
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 14px;
+  padding: 2rem 3rem;
+}
+.contact-form-side {
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 14px;
+  padding: 2rem 3rem;
+}
+
+.contact-form-side-heading h2 {
+  font-weight: 700;
+  color: #043642;
+  font-size: 35px;
+  margin: 0%;
+}
+.contact-form-side .email-box {
+  margin: 0%;
+  padding-right: 0.25rem;
+}
+.contact-form-side .email-box .searchbox {
+  padding: 0.8rem 0.8rem 0.8rem 50px;
+}
+.phone-box .searchbox {
+  width: 100%;
+  padding: 0.8rem 0.8rem 0.8rem 50px;
+  border-radius: 8px;
+  border-color: rgb(220, 220, 220);
+  margin: 0.5rem 0;
+}
+.Massage-box .searchbox {
+  width: 100%;
+  padding: 0.8rem 0.8rem 0.8rem 50px;
+
+  border-radius: 8px;
+  border-color: rgb(220, 220, 220);
+  margin: 0.5rem 0;
+}
+.addaddress-box .searchbox {
+  width: 100%;
+  padding: 0.8rem 0.8rem 0.8rem 50px;
+
+  border-radius: 8px;
+  border-color: rgb(220, 220, 220);
+  margin: 0.5rem 0;
+}
+.phone-box {
+  position: relative;
+  padding-left: 0.25rem;
+}
+.Massage-box {
+  position: relative;
+}
+.addaddress-box {
+  position: relative;
+}
+.phone-box:before {
+  position: absolute;
+  top: 50%;
+  left: 0.8rem;
+  transform: translateY(-50%);
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("../img/phone-i.svg") no-repeat 50% 50%;
+  background-size: 24px;
+  margin: 0 4px 0 0;
+}
+.Massage-box:before {
+  position: absolute;
+  top: 22px;
+  left: 0.8rem;
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("../img/message-i.svg") no-repeat 50% 50%;
+  background-size: 24px;
+  margin: 0 4px 0 0;
+}
+.addaddress-box:before {
+  position: absolute;
+  top: 22px;
+  left: 0.8rem;
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("../img/adresses-i.svg") no-repeat 50% 50%;
+  background-size: 24px;
+  margin: 0 4px 0 0;
+}
+.register-name-insert .addaddress-box {
+  width: 50%;
+}
+.register-name-insert .addaddress-box .searchbox {
+  padding: 0.5rem 0.5rem 0.5rem 50px;
+}
+.register-name-insert .addaddress-box::before {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.address-wrapper .register-name-insert .phone-box .searchbox {
+  padding: 0.5rem 0.5rem 0.5rem 50px;
+}
+.Massage-box.subject:before {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.addaddress-box.subject:before {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.contact-form-side .email-box,
+.phone-box {
+  width: 50%;
+}
+.contact-form-side .login-btn {
+  width: 50%;
+  float: right;
+}
+.contact-form-side .fname-box .searchbox {
+  padding: 0.8rem 0.8rem 0.8rem 50px;
+}
+
+.contact-detailes-side h5 {
+  font-weight: 700;
+  color: #043642;
+  margin-bottom: 0.3rem;
+}
+.contact-detailes-side-headding h2 {
+  font-weight: 700;
+  color: #043642;
+  font-size: 35px;
+  margin-bottom: 0rem;
+}
+.contact-detailes-side-headding p {
+  margin-bottom: 1rem;
+}
+.contact-detailes-side-headding ~ p,
+.contact-detailes-side-headding ~ a {
+  font-size: 18px;
+}
+@media only screen and (max-width: 991px) {
+  .contact-form-side {
+    padding: 1.5rem;
+  }
+  .contact-detailes-side {
+    padding: 1.5rem;
+  }
+}
